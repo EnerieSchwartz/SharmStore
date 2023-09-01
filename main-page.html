@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/root.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="./swiper-8.4.5/package/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- START OF HEADER -->
+    <header>
+      <div class="header__wrapper">
+        <div class="header__container">
+          <nav class="header__menu">
+            <li class="header__menu__item">
+              <a class="header__menu__item__link" href="#">Women</a>
+            </li>
+            <li class="header__menu__item">
+              <a class="header__menu__item__link" href="#">Men</a>
+            </li>
+            <li class="header__menu__item">
+              <a class="header__menu__item__link" href="#">Sale</a>
+            </li>
+            <li class="header__menu__item">
+              <a class="header__menu__item__link" href="#">About us</a>
+            </li>
+            <li class="header__menu__item">
+              <a class="header__menu__item__link" href="#">Contacts</a>
+            </li>
+          </nav>
+          <!-- START OF MENU FOR MOBILE -->
+          <a href="#" class="header__menu_bars__365">
+            <svg
+              width="45"
+              height="30"
+              viewBox="0 0 45 30"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M39.375 20H5.625V17.5H39.375V20ZM39.375 12.5H5.625V9.99997H39.375V12.5Z"
+              />
+            </svg>
+          </a>
+
+          <!-- MENU IN POP UP -->
+          <div class="header__menu__popup__bg">
+            <div class="header__menu__popup">
+              <header class="popup__menu__header">
+                <div class="header__wrapper">
+                  <div class="header__container">
+                    <div class="header__menu__close__popup">
+                      <svg
+                        width="25"
+                        height="27"
+                        viewBox="0 0 25 27"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1 26L23.846 1M1 1L23.846 26"
+                          stroke="#130F26"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    <a class="header__logo" href="#">
+                      <img
+                        class="header__footer__logo__img"
+                        src="./images/logo/logo.svg"
+                        alt="logo"
+                      />
+                    </a>
+                    <div class="popup__menu__icon">
+                      <img
+                        class="header__right__block__icon__img"
+                        src="./images/icons/cart.svg"
+                        alt="cart"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </header>
+              <div class="wrapper">
+                <div class="popup__menu__content">
+                  <div class="header__search__box">
+                    <button class="header__search__btn">
+                      <svg
+                        class="header__search__btn__svg"
+                        viewBox="0 0 26 26"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle
+                          cx="12.7471"
+                          cy="12.7471"
+                          r="9.73761"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M19.5198 20.0256L23.3375 23.8333"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </button>
+
+                    <input
+                      type="text"
+                      class="header__search__input"
+                      placeholder="Type to Search..."
+                    />
+                  </div>
+                  <ul class="popup__menu__list">
+                    <li class="header__menu__item">
+                      <a class="header__menu__item__link" href="#">Women</a>
+                    </li>
+                    <li class="header__menu__item">
+                      <a class="header__menu__item__link" href="#">Men</a>
+                    </li>
+                    <li class="header__menu__item">
+                      <a class="header__menu__item__link" href="#">Sale</a>
+                    </li>
+                    <li class="header__menu__item">
+                      <a class="header__menu__item__link" href="#">About us</a>
+                    </li>
+                    <li class="header__menu__item">
+                      <a class="header__menu__item__link" href="#">Contacts</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="popup__menu__footer">
+                <div class="wrapper">
+                  <div class="popup__menu__footer__content">
+                    <a href="#" class="popup__home__link">home</a>
+                    <div class="popup__menu__footer__icons">
+                      <a class="popup__menu__icon">
+                        <img
+                          class="header__right__block__icon__img"
+                          src="./images/icons/like.svg"
+                          alt="like"
+                        />
+                      </a>
+                      <a class="popup__menu__icon">
+                        <img
+                          class="header__right__block__icon__img"
+                          src="./images//icons/profile.svg"
+                          alt="profile"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- END OF MENU FOR MOBILE -->
+          <!-- ---------------------------------------------------  -->
+          <a class="header__logo" href="#">
+            <img
+              class="header__footer__logo__img"
+              src="./images/logo/logo.svg"
+              alt="logo"
+            />
+          </a>
+          <div class="header__right__block">
+            <a class="header__right__block__icon">
+              <div class="header__search__box">
+                <button class="header__search__btn">
+                  <svg
+                    class="header__search__btn__svg"
+                    viewBox="0 0 26 26"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="12.7471"
+                      cy="12.7471"
+                      r="9.73761"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M19.5198 20.0256L23.3375 23.8333"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+
+                <input
+                  type="text"
+                  class="header__search__input"
+                  placeholder="Type to Search..."
+                />
+              </div>
+            </a>
+            <a class="header__right__block__icon">
+              <img
+                class="header__right__block__icon__img"
+                src="./images/icons/like.svg"
+                alt="like"
+              />
+            </a>
+            <a class="header__right__block__icon">
+              <img
+                class="header__right__block__icon__img"
+                src="./images//icons/profile.svg"
+                alt="profile"
+              />
+            </a>
+            <a class="header__right__block__icon">
+              <img
+                class="header__right__block__icon__img"
+                src="./images/icons/cart.svg"
+                alt="cart"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- END OF HEADER  -->
+
+    <main>
+      <!--HOME PAGE SLIDER -->
+
+      <section class="top__slider__page__section">
+        <div class="swiper top__slider">
+          <div class="swiper-wrapper top__slider__wrapper">
+            <div class="swiper-slide top__slider__item">
+              <div class="top__slider__item__main__container">
+                <div class="top__slider__icons">
+                  <a class="top__slider__icons__ref" href="#"
+                    ><img src="images/instagram.svg" alt=""
+                  /></a>
+                  <a class="top__slider__icons__ref" href="#">
+                    <img src="images/facebook.svg" alt=""
+                  /></a>
+                  <a class="top__slider__icons__ref" href="#">
+                    <img src="images/twitter.svg" alt=""
+                  /></a>
+                  <a class="top__slider__icons__ref" href="#">
+                    <img src="images/youtube.svg" alt=""
+                  /></a>
+                </div>
+                <div class="top__slider__title__and__button__container">
+                  <div class="top__slider__title">
+                    <h1 class="top__slider__header">SHOP OGRANIC PRODUCT</h1>
+                    <p class="top__slider__paragraph">
+                      Dictum sit amet justo donec enim
+                    </p>
+                  </div>
+                  <button class="view-all__and__comment__button">
+                    VIEW ALL
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide top__slider__item">
+              <div class="top__slider__item__main__container"></div>
+            </div>
+            <div class="swiper-slide top__slider__item">
+              <div class="top__slider__item__main__container"></div>
+            </div>
+            <div class="swiper-slide top__slider__item">
+              <div class="top__slider__item__main__container"></div>
+            </div>
+            <div class="swiper-slide top__slider__item">
+              <div class="top__slider__item__main__container"></div>
+            </div>
+          </div>
+          <!-- pagination -->
+          <div
+            class="top__slider__pagination-1920 top__slider__pagination swiper-pagination swiper-pagination-vertical"
+          ></div>
+          <div
+            class="top__slider__pagination-375 top__slider__pagination swiper-pagination"
+          ></div>
+
+          <!-- navigation buttons -->
+          <div class="top__slider__navigation__container">
+            <h2 class="discription__text discription__text__dark">
+              01 — SHOP OGRANIC PRODUCT
+            </h2>
+            <div class="top__slider__navigation__buttons">
+              <div
+                class="swiper-button-prev top__slider__arrow top__slider__arrow-left"
+              ></div>
+              <div
+                class="swiper-button-next top__slider__arrow top__slider__arrow-right"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- END OF HOME PAGE SLIDER  -->
+
+      <!-- NEW IN SHOP -->
+      <section class="new__in__shop__section">
+        <div class="wrapper">
+          <h1 class="section__title">NEW IN SHOP</h1>
+          <div class="new__in__shop__container">
+            <div class="new__in__shop__box">
+              <div class="sepia__cover">
+                <p class="box__and__button__text">01 — Untitled</p>
+                <h3 class="box__text__h3">pharetra massa massa</h3>
+                <button class="buy__now__button">
+                  <span class="box__and__button__text new__in__shop__btn__text"
+                    >BUY NOW</span
+                  >
+                </button>
+              </div>
+            </div>
+
+            <div class="new__in__shop__box">
+              <div class="box__gray__cover new__in__shop__gray__cover__padding">
+                <p class="box__and__button__text">02 — Untitled</p>
+                <h3 class="box__text__h3">id eu nisl</h3>
+                <button class="buy__now__button">
+                  <span class="box__and__button__text new__in__shop__btn__text"
+                    >BUY NOW</span
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="new__in__shop__box">
+              <div class="box__gray__cover new__in__shop__gray__cover__padding">
+                <p class="box__and__button__text">03 — Untitled</p>
+                <h3 class="box__text__h3">enim sed faucibus</h3>
+                <button class="buy__now__button">
+                  <span class="box__and__button__text new__in__shop__btn__text"
+                    >BUY NOW</span
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="new__in__shop__box">
+              <div class="sepia__cover">
+                <p class="box__and__button__text">04 — Untitled</p>
+                <h3 class="box__text__h3">mattis vulputate enim</h3>
+                <button class="buy__now__button">
+                  <span class="box__and__button__text new__in__shop__btn__text"
+                    >BUY NOW</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- OUR BEST SELLERS -->
+
+      <section class="best__sellers__section">
+        <div class="wrapper">
+          <div class="bestsellers__title">
+            <h1 class="section__title">OUR BEST SELLERS</h1>
+            <p
+              class="discription__text discription__text__dark best__sellers__discription"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+
+          <div class="best__sellers__buttons__container">
+            <!-- Spoiler  -->
+            <button
+              onclick="bestSellersSpoilerFunc()"
+              class="best__sellers__btn best__sellers__spoiler__btn"
+            >
+              ALL PRODUCTS
+              <div class="best__sellers__btn-375-chevron">
+                <div>
+                  <i id="chevron__down" class="fa-solid fa-chevron-down"></i>
+                </div>
+              </div>
+            </button>
+
+            <div
+              class="best__sellers__spoiler__content"
+              id="best__sellers__spoiler"
+            >
+              <button class="best__sellers__btn">Untitled 1</button>
+              <button class="best__sellers__btn">Untitled 2</button>
+              <button class="best__sellers__btn">Untitled 3</button>
+              <button class="best__sellers__btn">Untitled 4</button>
+            </div>
+          </div>
+          <div class="best__sellers__boxes__container">
+            <!-- -------------Box1----------- -->
+            <div class="best__sellers__box">
+              <div class="new__mark"><span>New</span></div>
+              <img
+                class="best__sellers__box__img"
+                src="images/woman-Tshirt.svg"
+                alt=""
+              />
+              <div class="best__sellers__box__text__container">
+                <a href="#" class="best__sellers__ref">
+                  <h3 class="best__sellers__box__title">
+                    BAMBOODREAMS® TWILL SHEET SET
+                  </h3>
+                </a>
+                <p class="best__sellers__box__discription">
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <p class="price__text">28.00$</p>
+              </div>
+            </div>
+
+            <!-- ------------------Box2------------ -->
+            <div class="best__sellers__box">
+              <img
+                class="best__sellers__box__img"
+                src="images/man-casual.svg"
+                alt=""
+              />
+              <div class="best__sellers__box__text__container">
+                <a href="#" class="best__sellers__ref">
+                  <h3 class="best__sellers__box__title">
+                    BAMBOODREAMS® TWILL SHEET SET
+                  </h3>
+                </a>
+                <p class="best__sellers__box__discription">
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <p class="price__text">28.00$</p>
+              </div>
+            </div>
+            <!-- ---------------------Box 3----------------------- -->
+            <div class="best__sellers__box">
+              <img
+                class="best__sellers__box__img"
+                src="images/red-dress.svg"
+                alt=""
+              />
+              <div class="best__sellers__box__text__container">
+                <a href="#" class="best__sellers__ref">
+                  <h3 class="best__sellers__box__title">
+                    BAMBOODREAMS® TWILL SHEET SET
+                  </h3>
+                </a>
+                <p class="best__sellers__box__discription">
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <p class="price__text">28.00$</p>
+              </div>
+            </div>
+            <!-- ---------------------Box 4-------------------------- -->
+            <div class="best__sellers__box">
+              <img
+                class="best__sellers__box__img"
+                src="images/violet-suit.svg"
+                alt=""
+              />
+              <div class="best__sellers__box__text__container">
+                <a href="#" class="best__sellers__ref">
+                  <h3 class="best__sellers__box__title">
+                    BAMBOODREAMS® TWILL SHEET SET
+                  </h3>
+                </a>
+                <p class="best__sellers__box__discription">
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <p class="price__text">28.00$</p>
+              </div>
+            </div>
+
+            <!-- --------Box5------------------ -->
+            <div class="best__sellers__box">
+              <img
+                class="best__sellers__box__img"
+                src="images/stripped-shirt.svg"
+                alt=""
+              />
+              <div class="best__sellers__box__text__container">
+                <a href="#" class="best__sellers__ref">
+                  <h3 class="best__sellers__box__title">
+                    BAMBOODREAMS® TWILL SHEET SET
+                  </h3>
+                </a>
+                <p class="best__sellers__box__discription">
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <p class="price__text">28.00$</p>
+              </div>
+            </div>
+
+            <!-- ----------------Box 6-------------- -->
+            <div class="best__sellers__box">
+              <img
+                class="best__sellers__box__img"
+                src="images/woman-black-suit.svg"
+                alt=""
+              />
+              <div class="best__sellers__box__text__container">
+                <a href="#" class="best__sellers__ref">
+                  <h3 class="best__sellers__box__title">
+                    BAMBOODREAMS® TWILL SHEET SET
+                  </h3>
+                </a>
+                <p class="best__sellers__box__discription">
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <p class="price__text">28.00$</p>
+              </div>
+            </div>
+
+            <!-- ---------Box 7-------------- -->
+            <div class="best__sellers__box">
+              <img
+                class="best__sellers__box__img"
+                src="images/man-suit.svg"
+                alt=""
+              />
+              <div class="best__sellers__box__text__container">
+                <a href="#" class="best__sellers__ref">
+                  <h3 class="best__sellers__box__title">
+                    BAMBOODREAMS® TWILL SHEET SET
+                  </h3>
+                </a>
+                <p class="best__sellers__box__discription">
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <p class="price__text">28.00$</p>
+              </div>
+            </div>
+
+            <!-- ------------Box 8----------------- -->
+            <div class="best__sellers__box">
+              <img
+                class="best__sellers__box__img"
+                src="images/velvet-dress.svg"
+                alt=""
+              />
+              <div class="best__sellers__box__text__container">
+                <a href="#" class="best__sellers__ref">
+                  <h3 class="best__sellers__box__title">
+                    BAMBOODREAMS® TWILL SHEET SET
+                  </h3>
+                </a>
+                <p class="best__sellers__box__discription">
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <p class="price__text">28.00$</p>
+              </div>
+            </div>
+            <!-- -------------  -->
+          </div>
+          <div class="show__more__btn__block">
+            <button class="show__more__btn">
+              <p class="box__and__button__text">SHOW MORE</p>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- DISCOUNT & SALES -->
+      <section class="discount__sales__section">
+        <div class="wrapper">
+          <div class="discount__sales__container">
+            <div class="discount__sales__box">
+              <div class="discount__sales__box__text__container">
+                <h3 class="discount__sales__box__title discription__text__dark">
+                  DISCOUNT & SALES
+                </h3>
+                <p
+                  class="discount__sales__box1__discription discription__text discription__text__dark"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Integer quis auctor elit sed vulputate mi sit.
+                </p>
+              </div>
+            </div>
+
+            <!-- SALE -->
+            <div class="discount__sales__box">
+              <div class="box__gray__cover">
+                <div class="discount__sales__box__content">
+                  <div class="discount__sales__box__content__top__section">
+                    <p class="box__and__button__text">Untitled</p>
+                    <h3 class="discount__sales__box__h3 box__text__h3">
+                      pharetra massa massa
+                    </h3>
+                  </div>
+                  <div class="discount__sales__box__content__bottom__section">
+                    <p class="discount__sales__box3__discription">SALE</p>
+                    <button class="buy__now__button">
+                      <span
+                        class="box__and__button__text new__in__shop__btn__text"
+                      >
+                        BUY NOW
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- UP TO 40% OFF -->
+            <div class="discount__sales__box">
+              <div class="box__gray__cover">
+                <div class="discount__sales__box__content">
+                  <div class="discount__sales__box__content__top__section">
+                    <p class="box__and__button__text">Untitled</p>
+                    <h3 class="discount__sales__box__h3 box__text__h3">
+                      pharetra massa massa
+                    </h3>
+                  </div>
+                  <div class="discount__sales__box__content__bottom__section">
+                    <button class="buy__now__button">
+                      <span
+                        class="box__and__button__text new__in__shop__btn__text"
+                      >
+                        BUY NOW
+                      </span>
+                    </button>
+                    <p class="discount__sales__box2__discription">
+                      UP TO 40% OFF
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--START OF NEWSPAPER -->
+            <div class="discount__sales__box">
+              <div class="discount__sales__box__content">
+                <div
+                  class="discount__sales__newspaper__box__content__top__section"
+                >
+                  <p class="newspaper__box__title discription__text__light">
+                    NEWSPAPER
+                  </p>
+                  <p class="discription__text discription__text__light">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+
+                <form class="newspaper__box__form">
+                  <div class="newspaper__box__form__container">
+                    <input type="email" placeholder="Email" required />
+                    <input type="submit" value="SUBSCRIBE" />
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!--END OF NEWSPAPER -->
+          </div>
+        </div>
+      </section>
+      <!-- OUR CLIENTS -->
+      <section class="our__clients__slider__section">
+        <h1 class="section__title">OUR CLIENTS</h1>
+        <div class="our__clients__wrapper">
+          <!-- ---------------------------------------------------- -->
+          <!-- CLIENTS SLIDER  -->
+          <div class="swiper our__clients__slider__boxes__container">
+            <div class="swiper-wrapper our__clients_slider__wrapper">
+              <!-- slide 1 -->
+              <div class="swiper-slide our__clients__box">
+                <div class="our__clients__box__content">
+                  <img
+                    class="our__clients__box__content__img"
+                    src="images/apple.svg"
+                    alt=""
+                  />
+                  <p class="our__clients__box__text">Apple</p>
+                </div>
+                <!-- ------  -->
+                <div class="our__clients__box__content">
+                  <img
+                    class="our__clients__box__content__img"
+                    src="images/apple.svg"
+                    alt=""
+                  />
+                  <p class="our__clients__box__text">Apple</p>
+                </div>
+                <!-- ------  -->
+                <div class="our__clients__box__content">
+                  <img
+                    class="our__clients__box__content__img"
+                    src="images/apple.svg"
+                    alt=""
+                  />
+                  <p class="our__clients__box__text">Apple</p>
+                </div>
+                <!-- ------  -->
+                <div class="our__clients__box__content">
+                  <img
+                    class="our__clients__box__content__img"
+                    src="images/apple.svg"
+                    alt=""
+                  />
+                  <p class="our__clients__box__text">Apple</p>
+                </div>
+              </div>
+
+              <!-- slide 2 -->
+              <div class="swiper-slide our__clients__box">
+                <div class="our__clients__box__content">
+                  <img
+                    class="our__clients__box__content__img"
+                    src="images/apple.svg"
+                    alt=""
+                  />
+                  <p class="our__clients__box__text">Apple</p>
+                </div>
+                <!-- ------  -->
+                <div class="our__clients__box__content">
+                  <img
+                    class="our__clients__box__content__img"
+                    src="images/apple.svg"
+                    alt=""
+                  />
+                  <p class="our__clients__box__text">Apple</p>
+                </div>
+                <!-- ------  -->
+                <div class="our__clients__box__content">
+                  <img
+                    class="our__clients__box__content__img"
+                    src="images/apple.svg"
+                    alt=""
+                  />
+                  <p class="our__clients__box__text">Apple</p>
+                </div>
+                <!-- ------  -->
+                <div class="our__clients__box__content">
+                  <img
+                    class="our__clients__box__content__img"
+                    src="images/apple.svg"
+                    alt=""
+                  />
+                  <p class="our__clients__box__text">Apple</p>
+                </div>
+              </div>
+
+              <!-- slide 3 -->
+              <div class="swiper-slide our__clients__box">
+                <div class="our__clients__box__content">
+                  <img
+                    class="our__clients__box__content__img"
+                    src="images/apple.svg"
+                    alt=""
+                  />
+                  <p class="our__clients__box__text">Apple</p>
+                </div>
+                <!-- ------  -->
+                <div class="our__clients__box__content">
+                  <img
+                    class="our__clients__box__content__img"
+                    src="images/apple.svg"
+                    alt=""
+                  />
+                  <p class="our__clients__box__text">Apple</p>
+                </div>
+                <!-- ------  -->
+                <div class="our__clients__box__content">
+                  <img
+                    class="our__clients__box__content__img"
+                    src="images/apple.svg"
+                    alt=""
+                  />
+                  <p class="our__clients__box__text">Apple</p>
+                </div>
+                <!-- ------  -->
+                <div class="our__clients__box__content">
+                  <img
+                    class="our__clients__box__content__img"
+                    src="images/apple.svg"
+                    alt=""
+                  />
+                  <p class="our__clients__box__text">Apple</p>
+                </div>
+              </div>
+
+              <!-- slide 4 -->
+              <div class="swiper-slide our__clients__box">
+                <div class="our__clients__box__content">
+                  <img
+                    class="our__clients__box__content__img"
+                    src="images/apple.svg"
+                    alt=""
+                  />
+                  <p class="our__clients__box__text">Apple</p>
+                </div>
+                <!-- ------  -->
+                <div class="our__clients__box__content">
+                  <img
+                    class="our__clients__box__content__img"
+                    src="images/apple.svg"
+                    alt=""
+                  />
+                  <p class="our__clients__box__text">Apple</p>
+                </div>
+                <!-- ------  -->
+                <div class="our__clients__box__content">
+                  <img
+                    class="our__clients__box__content__img"
+                    src="images/apple.svg"
+                    alt=""
+                  />
+                  <p class="our__clients__box__text">Apple</p>
+                </div>
+                <!-- ------  -->
+                <div class="our__clients__box__content">
+                  <img
+                    class="our__clients__box__content__img"
+                    src="images/apple.svg"
+                    alt=""
+                  />
+                  <p class="our__clients__box__text">Apple</p>
+                </div>
+              </div>
+              <!-- ------------  -->
+            </div>
+
+            <!-- pagination -->
+            <div class="our__clients__pagination swiper-pagination"></div>
+          </div>
+          <!-- END OF SLIDER  -->
+          <!-- -----------------------------------------------  -->
+        </div>
+      </section>
+      <!--START OF COMMENT -->
+      <section class="comment__section">
+        <div class="comment__top__section__wrapper">
+          <div class="comment__top__section__container">
+            <div class="comment__top__section__title-discription">
+              <h3 class="comment__section__title">Untitled</h3>
+              <p
+                class="comment__top__section__discription discription__text discription__text__dark"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <button
+              class="comment__section__btn view-all__and__comment__button"
+            >
+              COMMENT
+            </button>
+          </div>
+        </div>
+        <div class="comment__bottom__section">
+          <div class="comment__bottom__section__wrapper">
+            <div class="comment__images__container">
+              <div class="comment__images__box"></div>
+              <div class="comment__images__box"></div>
+              <div class="comment__images__box"></div>
+              <div class="comment__images__box"></div>
+              <div class="comment__images__box"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--END OF COMMENT -->
+    </main>
+
+    <!-- START OF FOOTER  -->
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="footer__wrap">
+          <div class="footer__container">
+            <div class="footer__block-info">
+              <h3 class="footer__block-title">MENU</h3>
+              <div class="footer__menu">
+                <nav class="footer__menu-block">
+                  <a class="footer__menu-item" href="#">New</a>
+                  <a class="footer__menu-item" href="#">Delivery</a>
+                  <a class="footer__menu-item" href="#">FAQ</a>
+                  <a class="footer__menu-item" href="#">Sales</a>
+                  <a class="footer__menu-item" href="#">Contacts</a>
+                </nav>
+                <nav class="footer__menu-block">
+                  <a class="footer__menu-item" href="#">Account</a>
+                  <a class="footer__menu-item" href="#">Bag</a>
+                  <a class="footer__menu-item" href="#">Likes</a>
+                  <a class="footer__menu-item" href="#">Men</a>
+                  <a class="footer__menu-item" href="#">Women</a>
+                </nav>
+              </div>
+            </div>
+            <div class="footer__block-info">
+              <h3 class="footer__block-title">CONTACTS</h3>
+              <div class="footer__block-contact">
+                <a class="footer__block-email" href="#"
+                  >Email. kabro@gmail.com</a
+                >
+                <a class="footer__block-phone" href="tel:38 095 000 00 01">
+                  + 38 095 000 00 01</a
+                >
+              </div>
+            </div>
+            <div class="footer__block-info">
+              <h3 class="footer__block-title">SOCIAL</h3>
+              <div class="footer__block-social">
+                <a class="social__item" href="#"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a class="social__item" href="#"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+                <a class="social__item" href="#"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+                <a class="social__item" href="#"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__wrap">
+          <div class="footer__container">
+            <div class="footer__container-left">
+              <a class="footer__logo" href="#">
+                <img
+                  class="footer__logo__img"
+                  src="./images/logo/logo.svg"
+                  alt="logo"
+                />
+              </a>
+              <p class="copi">Copyright © 2022</p>
+            </div>
+            <div class="footer__container-right">
+              <img class="pay" src="./images/icons/master.svg" alt="master" />
+              <img
+                class="pay"
+                src="./images/icons/paypal-logo.svg"
+                alt="paypal"
+              />
+              <img class="pay" src="./images/icons/visa.svg" alt="visa" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END OF FOOTER  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
